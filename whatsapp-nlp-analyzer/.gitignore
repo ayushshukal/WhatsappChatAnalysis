@@ -1,0 +1,28 @@
+# --- Private chat data: NEVER commit ---
+# Ignores everything in these folders except the .gitkeep placeholders
+# (covers the required data/raw/*.txt and data/processed/*.csv).
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+WhatsApp Chat*
+
+# Models fitted on a private chat can leak its vocabulary
+models/*
+!models/README.md
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Notebooks / editors / OS ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,19 @@
+# Web app
+streamlit>=1.35
+
+# Data processing
+pandas>=2.0
+numpy>=1.24
+
+# NLP
+nltk>=3.9            # tokenization, stopwords, VADER sentiment
+spacy>=3.7           # named entity recognition
+scikit-learn>=1.3    # CountVectorizer / TF-IDF / LDA, evaluation metrics
+
+# Visualization
+plotly>=5.18
+matplotlib>=3.7
+wordcloud>=1.9       # optional word cloud (Phase 8)
+
+# Emoji handling
+emoji>=2.8
